@@ -1,0 +1,21 @@
+
+<resources>
+    <string name="app_name">BookTracker</string>
+    <string name="app_title">BookTracker</string>
+    <string name="app_subtitle">Discover and track your favourite books</string>
+    <string name="search_hint">Search by book title or author</string>
+    <string name="search_button">Search Books</string>
+    <string name="search_initial_message">Search for a book to get started.</string>
+    <string name="search_results_description">Book search results</string>
+    <string name="loading_books">Loading books</string>
+
+    <string name="search_empty_error">Enter a book title or author</string>
+    <string name="searching_books">Searching for books...</string>
+    <string name="no_books_found">No books found. Try another search.</string>
+    <string name="books_found">Found %1$d book(s).</string>
+    <string name="network_error">Unable to retrieve books. Check your internet connection.</string>
+    <string name="unknown_title">Unknown title</string>
+    <string name="unknown_author">Unknown author</string>
+    <string name="publication_year_unavailable">Publication year unavailable</string>
+    <string name="book_result">Title: %1$s\nAuthor: %2$s\nYear: %3$s</string>
+</resources>
