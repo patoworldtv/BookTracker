@@ -14,11 +14,11 @@ BookTracker is an Android app built in Kotlin that lets you search for books thr
 - MVVM Architecture (ViewModel, StateFlow, repeatOnLifecycle)
 
 ## Getting Started
-1. Clone the repository:
+- Clone the repository:
 
-Bash
+* Bash
 git clone https://github.com/yourusername/BookTracker.git
-Open in Android Studio:
+** Open in Android Studio:
 Open the project folder and let Gradle sync the dependencies.
 
 Run the app:
