@@ -15,16 +15,16 @@ BookTracker is an Android app built in Kotlin that lets you search for books thr
 
 ## Getting Started
 - Clone the repository:
-
-* Bash
+Bash
 git clone https://github.com/yourusername/BookTracker.git
-** Open in Android Studio:
+
+- Open in Android Studio:
 Open the project folder and let Gradle sync the dependencies.
 
-Run the app:
+- Run the app:
 Select an emulator or physical Android device (Android 7.1 / API 25 or higher) and click Run.
 
-Project Overview
+# Project Overview
 Plaintext
 com.example.booktracker
 ├── OpenLibraryApi.kt      # Retrofit interface and shared API client
