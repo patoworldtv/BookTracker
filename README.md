@@ -2,10 +2,10 @@
 BookTracker is an Android app built in Kotlin that lets you search for books through the Open Library API and save them to a local library on your device. I built this project to practice combining clean network requests with reliable, offline-first local storage.
 
 ## Features
-Live Book Search: Query titles and authors directly from the Open Library Search API.
-Rotation Safe UI: Uses a ViewModel and StateFlow to handle Idle, Loading, Success, and Error states cleanly, ensuring screen rotations don't trigger duplicate network calls or lose your search results.
-Smart Local Imports: Saves books into a Room database using a single transaction that finds or creates the author first and prevents duplicate book entries.
-Automatic UI Updates: Observes database changes via Kotlin Flow, so your saved reading list updates automatically the moment a book is imported.
+- Live Book Search: Query titles and authors directly from the Open Library Search API.
+- Rotation Safe UI: Uses a ViewModel and StateFlow to handle Idle, Loading, Success, and Error states cleanly, ensuring screen rotations don't trigger duplicate network calls or lose your search results.
+- Smart Local Imports: Saves books into a Room database using a single transaction that finds or creates the author first and prevents duplicate book entries.
+- Automatic UI Updates: Observes database changes via Kotlin Flow, so your saved reading list updates automatically the moment a book is imported.
 
 ## Built With
 - Kotlin And Coroutines for asynchronous background work
@@ -14,7 +14,7 @@ Automatic UI Updates: Observes database changes via Kotlin Flow, so your saved r
 - MVVM Architecture (ViewModel, StateFlow, repeatOnLifecycle)
 
 ## Getting Started
-Clone the repository:
+1. Clone the repository:
 
 Bash
 git clone https://github.com/yourusername/BookTracker.git
